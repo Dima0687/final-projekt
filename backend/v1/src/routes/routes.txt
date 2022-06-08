@@ -1,0 +1,3 @@
+TODO[] user route schreiben
+TODO[] event route schreiben ( falls nötig )
+TODO[] auth route schreiben
