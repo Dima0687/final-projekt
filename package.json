@@ -7,9 +7,9 @@
     "install-server": "npm install --prefix backend",
     "install-client": "npm install --prefix frontend",
     "install": "npm run install-server && npm run install-client",
-    "watch-server": "npm run watch --prefix backend",
+    "watch-server": "npm run dev --prefix backend",
     "watch-client": "npm start --prefix frontend",
-    "watch": "npm run watch-server & npm run watch-client",
+    "dev": "npm run watch-server & npm run watch-client",
     "build": "npm run build --prefix frontend"
   },
   "keywords": [],
