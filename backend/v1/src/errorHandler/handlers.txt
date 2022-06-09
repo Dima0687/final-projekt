@@ -1,1 +1,0 @@
-TODO[] evtl classes schreiben für errorHandling

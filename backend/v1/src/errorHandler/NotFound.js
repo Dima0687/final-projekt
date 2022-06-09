@@ -1,0 +1,1 @@
+// TODO[] Schreibe eine not found Error class, siehe BadRequest! Nimm den passenden StatusCode dafür.

@@ -1,0 +1,9 @@
+:method GET :url / :status 404 :res[content-length] 139 - :res[time] 77.900ms ::1
+:method GET :url / :status 404 :res[content-length] 139 - :res[time] 61.849ms ::1
+:method GET :url / :status 404 :res[content-length] 139 - :res[time] 52.380ms ::1
+:method GET :url / :status 404 :res[content-length] 139 - :res[time] 57.621ms ::1
+:method GET :url / :status 404 :res[content-length] 139 - :res[time] 61.755ms ::1
+:method GET :url / :status 404 :res[content-length] 139 - :res[time] 55.575ms ::1
+:method GET :url / :status 404 :res[content-length] 139 - :res[time] 70.416ms ::1
+:method GET :url / :status 404 :res[content-length] 139 - :res[time] 4.305ms ::1
+:method GET :url /favicon.ico :status 404 :res[content-length] 150 - :res[time] 3.673ms ::1

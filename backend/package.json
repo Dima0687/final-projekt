@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "private": true,
-  "description": "a backend for a todo-app made with express.js",
+  "description": "a backend for a event app made with express.js",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -13,7 +13,7 @@
     "backend",
     "todo-app"
   ],
-  "author": "Dietmar Eisner",
+  "author": "Dietmar Eisner, Jeremy Taag, Felix Garske, Janina Spille",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",

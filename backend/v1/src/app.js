@@ -10,13 +10,13 @@ import express from 'express';
 import morgan from 'morgan';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
+import errorHandlerMiddleware from './middleware/errorHandlerMiddleware.js';
 
 // routes imports
-import authRoutes from './routes/auth.routes.js';
+// import authRoutes from './routes/auth.routes.js';
 
 // config
 import { corsOptions } from './config/corsOption.config.js';
-
 
 
 // create error log stream
@@ -49,13 +49,15 @@ app.use(morgan(function (tokens, req, res) {
 app.use(express.json());
 
 // Cross-Origin Resource Sharing
-app.use(cors()); // TODO[](Dima) <= muss zum ende hin noch corsOptions rein
+app.use(cors()); // TODO[] muss zum ende hin noch corsOptions rein
 
 // Routes
-app.use('/login', authRoutes);
+// app.use('/login', authRoutes);
 
-app.get('/', (req, res, next)=>{
-  res.status(200).send('Server läuft')
-})
+
+
+
+// error handling
+app.use(errorHandlerMiddleware)
 
 export default app;

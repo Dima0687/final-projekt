@@ -1,2 +1,3 @@
 TODO[] User.model.js schreiben
 TODO[] Event.model.js schreiben
+TODO[] eventParticipations ausprobieren, weiß zur Zeit noch nicht wie am sinnvollsten
