@@ -13,7 +13,8 @@ import cors from 'cors';
 import errorHandlerMiddleware from './middleware/errorHandlerMiddleware.js';
 
 // routes imports
-// import authRoutes from './routes/auth.routes.js';
+import authRoutes from './routes/auth.routes.js';
+import testRoutes from './routes/TEST.routes.js';
 
 // config
 import { corsOptions } from './config/corsOption.config.js';
@@ -52,9 +53,8 @@ app.use(express.json());
 app.use(cors()); // TODO[] muss zum ende hin noch corsOptions rein
 
 // Routes
-// app.use('/login', authRoutes);
-
-
+app.use(authRoutes);
+app.use(testRoutes);
 
 
 // error handling

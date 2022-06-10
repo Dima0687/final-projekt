@@ -1,23 +1,24 @@
 import { StatusCodes } from 'http-status-codes';
 
-// handleLogin, handleLogout, handleSignUp
 function handleSignUp(req, res, next){
-  const { user, email, pwd } = req.body; // user, pwd sind die keys im frontend
-
-  const duplicate = await User.findOne({ email });
-
+  res.send('signup')
 }
 
 function handleLogin(req, res, next){
-
+  res.send('login')
 }
 
 function handleLogout(req, res, next){
+  res.send('logout')
+}
 
+function handleRefreshToken(req, res, next){
+  res.send('refresh')
 }
 
 export {
   handleSignUp,
   handleLogin,
-  handleLogout
+  handleLogout,
+  handleRefreshToken
 }
