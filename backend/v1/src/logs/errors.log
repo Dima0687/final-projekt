@@ -1,6 +1,0 @@
-:method GET :url /test :status 403 :res[content-length] 9 - :res[time] 9.515ms ::ffff:127.0.0.1
-:method GET :url /test :status 403 :res[content-length] 9 - :res[time] 8.997ms ::ffff:127.0.0.1
-:method GET :url /test/1 :status 403 :res[content-length] 9 - :res[time] 5.486ms ::ffff:127.0.0.1
-:method GET :url /test/1 :status 403 :res[content-length] 9 - :res[time] 3.017ms ::ffff:127.0.0.1
-:method POST :url /test :status 401 :res[content-length] 12 - :res[time] 5.300ms ::ffff:127.0.0.1
-:method DELETE :url /test/1 :status 401 :res[content-length] 12 - :res[time] 2.860ms ::ffff:127.0.0.1
