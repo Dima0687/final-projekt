@@ -1,4 +1,4 @@
-//TODO[] Schreibe eine Error Class für unauthorized
+//TODO[x] Schreibe eine Error Class für unauthorized
 
 import { StatusCodes } from "http-status-codes";
 

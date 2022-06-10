@@ -1,4 +1,4 @@
-TODO[] (Dima)auth.controller.js schreiben
+TODO[x] (Dima)auth.controller.js schreiben
 TODO[] user.controller.js schreiben
   - überlege alleine oder mit uns zusammen,
     welche contoller dafür nötig sind 

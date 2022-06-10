@@ -1,0 +1,5 @@
+:german-time: 10.6.2022 17:52:56 :method GET :url /test :status 403 :res[content-length] 9 - :res[time] 6.286ms ::ffff:127.0.0.1
+:german-time: 10.6.2022 17:54:14 :method GET :url /test :status 403 :res[content-length] 9 - :res[time] 3.195ms ::ffff:127.0.0.1
+:german-time: 10.6.2022 17:54:21 :method GET :url /test :status 401 :res[content-length] 12 - :res[time] 3.544ms ::ffff:127.0.0.1
+:german-time: 10.6.2022 17:54:41 :method GET :url /test :status 401 :res[content-length] 12 - :res[time] 1.611ms ::ffff:127.0.0.1
+:german-time: 10.6.2022 17:55:07 :method GET :url /test/1 :status 403 :res[content-length] 9 - :res[time] 2.883ms ::ffff:127.0.0.1

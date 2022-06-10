@@ -1,1 +1,1 @@
-TODO[] Zum Ende hin kommt hier das frontend rein!
+TODO[] Zum Ende hin kommt hier das frontend rein oder über netlify!?
