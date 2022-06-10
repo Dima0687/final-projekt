@@ -50,6 +50,19 @@ const userSchema = new mongoose.Schema({
       return this.organizier
     }
   },
+  roles: {
+    admin: Number,
+    organizier: {
+      type: Number,
+      default: function(){
+        return this.organizier ? 5050 : null
+      }
+    },
+    user:{
+      type: Number,
+      default: 1111
+    }
+  },
   address: {
     street:{
       type: String,
