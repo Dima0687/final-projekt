@@ -128,7 +128,7 @@ const userSchema = new mongoose.Schema({
   }
 });
 
-// TODO[](Dima) signup, access & refresh, logout
+// TODO[x](Dima) signup, access & refresh, logout
 
 // generiere und speichere das Passwort
 /* userSchema.pre('save', async function(){
