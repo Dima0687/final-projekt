@@ -1,6 +1,6 @@
 const ROLES_LIST = {
   admin: 9010,
-  organizier: 5050,
+  organizer: 5050,
   user: 1111
 }
 

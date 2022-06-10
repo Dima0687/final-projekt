@@ -4,12 +4,15 @@
   da wir so direkt die gewünschten Klassen aus 
   nur einem Modul uns ziehen können
 */
-import { BadRequestError } from "./BadRequest";
-
 // TODO[] Ergänze die index.js mit den restlichen Error Klassen
+
+import { BadRequestError } from "./BadRequest.js";
+import { UnauthenticatedError } from "./Unauthenticated.js";
+
 
 
 
 export {
-  BadRequestError
+  BadRequestError,
+  UnauthenticatedError
 }

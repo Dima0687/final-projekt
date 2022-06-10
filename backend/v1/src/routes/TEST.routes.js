@@ -7,15 +7,21 @@ import {
   deleteOne
 } from '../controller/TEST.controller.js';
 
+// verfiy middleware
+import verify from '../middleware/authentication.middleware.js';
+
+// config
+import ROLES_LIST from '../config/roles.config.js';
+
 const router = Router();
 
 router.route('/test')
-  .post(createOne)
-  .get(getAll);
+  .post(verify.roles(ROLES_LIST.admin), createOne)
+  .get(verify.roles(ROLES_LIST.organizer), getAll);
 
 router.route('/test/:id')
-  .get(getOne)
-  .patch(updateOne)
-  .delete(deleteOne);
+  .get(verify.roles(ROLES_LIST.user), getOne)
+  .patch(verify.roles(ROLES_LIST.organizer), updateOne)
+  .delete(verify.roles(ROLES_LIST.admin), deleteOne);
 
 export default router;

@@ -1,6 +1,6 @@
 import { StatusCodes } from 'http-status-codes';
 import { validationResult } from "express-validator";
-import { BadRequestError } from '../errorHandler/BadRequest';
+import { BadRequestError } from '../errorHandler/BadRequest.js';
 
 
 const validateRequest = (req, res, next) => {

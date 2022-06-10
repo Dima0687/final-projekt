@@ -9,7 +9,12 @@ const errorHandlerMiddleware = (err, req, res, next) => {
   // TODO[] error handler middleware zuende schreiben
 
   // wenn ValidationError
-
+  if(err.name === 'ValidationError'){
+    customError.statusCode = StatusCodes.BAD_REQUEST;
+    customError.msg = Object.values(err.errors)
+    .map( error => error.message)
+    .join(' ')
+  }
   // wenn MongoServerError && code 11000
 
   // wenn CastError
