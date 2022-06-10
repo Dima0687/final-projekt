@@ -225,7 +225,6 @@ userSchema.statics.logout = async function(res, refreshToken){
   user.save();
 
   res.clearCookie('jwt', options);
-  
 }
 
 // generiere mit dem refrehToken einen neuen access token "erfrische token"

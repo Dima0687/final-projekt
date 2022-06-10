@@ -1,3 +1,4 @@
-TODO[x] User.model.js schreiben
+TODO[] User.model.js fertig stellen z.B. unique
+TODO[] logout muss im FrontEnd ebenfalls löschen, andernsfalls hat man solange zugriff bis dieser abgelaufen ist
 TODO[] Event.model.js schreiben
 TODO[] eventParticipations ausprobieren, weiß zur Zeit noch nicht wie am sinnvollsten
