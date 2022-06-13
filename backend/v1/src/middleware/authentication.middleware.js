@@ -2,9 +2,6 @@
 import jsonwt from 'jsonwebtoken';
 import { StatusCodes } from 'http-status-codes';
 
-// gleich wieder löschen
-import ROLES_LIST from '../config/roles.config.js'
-
 const jwt = (req, res, next) => {
   const authHeader = req.headers.authorization || req.headers.Authorization;
   if(!authHeader?.startsWith('Bearer ')) return res.sendStatus(StatusCodes.UNAUTHORIZED);
