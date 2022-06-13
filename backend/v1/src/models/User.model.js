@@ -130,14 +130,6 @@ const userSchema = new mongoose.Schema({
 
 // TODO[x](Dima) signup, access & refresh, logout
 
-// generiere und speichere das Passwort
-/* userSchema.pre('save', async function(){
-  const saltRounds = 10;
-  this.password = await bcrypt.hash(this.password, saltRounds);
-
-  console.log('save',this.roles);
-}); */
-
 // hash das password
 userSchema.methods.hashPassword = async function(){
   const saltRounds = 10;
@@ -183,10 +175,10 @@ userSchema.methods.comparePassword = async function(canditatePassword){
 // Suche den User mit email und gib uns die Tokens
 userSchema.statics.login = async function(email, password){
   const user = await this.findOne({ email });
-  if(!user) throw new UnauthenticatedError('Falsche E-Mail Adresse');
+  if(!user) throw new UnauthenticatedError('Falsche E-Mail Adresse oder falsches Passwort');
 
   const auth = await user.comparePassword(password);
-  if(!auth) throw new UnauthenticatedError('Falsches Passwort');
+  if(!auth) throw new UnauthenticatedError('Falsche E-Mail Adresse oder falsches Passwort');
 
   const accessToken = user.createAndGetAccessToken();
   const refreshToken = user.createGetAndStoreRefreshToken(email);
@@ -211,7 +203,7 @@ userSchema.statics.logout = async function(res, refreshToken){
   const options = {
     httpOnly: true,
     sameSite: 'None',
-    secure: process.env.NODE_ENV,
+    secure: process.env.NODE_ENV === 'production',
     maxAge: oneDay
   }
 
