@@ -59,5 +59,4 @@ Many probably know it, you look at various event sites, find the one or the othe
 |Felix Garske    | [![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FelixGA) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felix-garske?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADtl1qEBfEYa0Y0oVLZNs3qT8AX3KCLapCA&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BUFkvTDK%2BStee%2BztTC%2B3o0w%3D%3D) |
 
 [⬆️](#final-project--eventlookup-)
-
 ---
