@@ -1,0 +1,27 @@
+.SideNav > aside {
+    color: white;
+    background: rgba(0,0,0,0.8);
+    padding: 2em;
+    margin-right: 2em;
+    min-width: 18vW;
+}
+.SideNav > aside #Suche {
+    margin-top: 1em;
+    width: 1em;
+}
+.SideNav > aside div {
+    cursor: pointer;
+}
+.SideNav > aside div:hover {
+    background-color: white;
+    color: black;
+}
+.SideNav form {
+    display: flex;
+    flex-direction: row;
+}
+.SideNav #los {
+    padding: 0.2em;
+    margin-left: 0.8em;
+    cursor: pointer;
+}

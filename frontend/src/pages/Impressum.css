@@ -1,0 +1,44 @@
+main.impressum {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    
+}
+main.impressum .impressum-scroll {
+    height: 95vh;
+    overflow: scroll !important;
+}
+main.impressum h2 {
+    margin: 0 0 .5rem 0;
+}
+.impressum-sec,
+.disclaimer-sec {
+    background-color: #e7e7e7;
+    margin: 0 .6rem 1.5rem;
+    padding: 1rem .7rem;
+    border-radius: 5px;
+}
+main.impressum h3 {
+    margin: 20px 0 10px;
+}
+main.impressum .impressum-sec p:first-of-type {
+    margin: 0 0 20px 0;
+}
+
+@media screen and (min-width: 90rem) {
+    main.impressum {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        height: 90vh !important;
+    }
+    main.impressum .impressum-scroll {
+        overflow: scroll !important;
+    }
+
+    .impressum-sec,
+    .disclaimer-sec {
+        max-width: 500px;
+    }
+}

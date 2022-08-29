@@ -1,0 +1,25 @@
+.vier-null-vier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vier-null-vier main {
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vier-null-vier h1 {
+    color: #11748e;
+    font-size: 250px;
+}
+/* mobile-second */
+@media screen and (max-width: 90rem) {
+    .vier-null-vier h1 {
+        font-size: 100px;
+    }
+}

@@ -1,0 +1,16 @@
+:german-time: 23.6.2022 10:18:03 :method POST :url /signup :status 400 :size 32 Bytes - :res[time] 29.725ms :ip ::ffff:127.0.0.1
+:german-time: 23.6.2022 10:18:34 :method POST :url /signup :status 400 :size 32 Bytes - :res[time] 29.356ms :ip ::ffff:127.0.0.1
+:german-time: 23.6.2022 10:21:14 :method POST :url /signup :status 400 :size 32 Bytes - :res[time] 23.115ms :ip ::ffff:127.0.0.1
+:german-time: 23.6.2022 10:21:16 :method POST :url /signup :status 400 :size 32 Bytes - :res[time] 2.229ms :ip ::ffff:127.0.0.1
+:german-time: 23.6.2022 10:21:19 :method POST :url /signup :status 400 :size 32 Bytes - :res[time] 1.118ms :ip ::ffff:127.0.0.1
+:german-time: 23.6.2022 10:21:36 :method POST :url /signup :status 400 :size 32 Bytes - :res[time] 3.047ms :ip ::ffff:127.0.0.1
+:german-time: 27.6.2022 10:17:15 :method GET :url /events :status 400 :size 77 Bytes - :res[time] 20.260ms :ip ::ffff:127.0.0.1
+:german-time: 27.6.2022 10:17:30 :method GET :url /events?host=Polizei :status 400 :size 93 Bytes - :res[time] 2.965ms :ip ::ffff:127.0.0.1
+:german-time: 27.6.2022 10:18:17 :method GET :url /events?host=Polizei :status 400 :size 93 Bytes - :res[time] 1.590ms :ip ::ffff:127.0.0.1
+:german-time: 27.6.2022 10:39:26 :method GET :url /events?location.zip=34534 :status 400 :size 125 Bytes - :res[time] 3.060ms :ip ::ffff:127.0.0.1
+:german-time: 27.6.2022 10:39:40 :method GET :url /event :status 403 :size 9 Bytes - :res[time] 2.797ms :ip ::ffff:127.0.0.1
+:german-time: 27.6.2022 10:39:59 :method GET :url /events?website=titanic.de :status 400 :size 120 Bytes - :res[time] 1.513ms :ip ::ffff:127.0.0.1
+:german-time: 27.6.2022 10:40:30 :method GET :url /events?host=Polizei&website=%20wiestopptmangewalt.de :status 400 :size 149 Bytes - :res[time] 1.012ms :ip ::ffff:127.0.0.1
+:german-time: 27.6.2022 18:16:46 :method GET :url /events?website=titanic.de :status 400 :size 120 Bytes - :res[time] 9.113ms :ip ::ffff:127.0.0.1
+:german-time: 27.6.2022 20:16:14 :method GET :url /favicon.ico :status 401 :size 12 Bytes - :res[time] 1.160ms :ip ::ffff:127.0.0.1
+:german-time: 27.6.2022 23:19:56 :method PUT :url /events :status 401 :size 12 Bytes - :res[time] 11.915ms :ip ::ffff:127.0.0.1

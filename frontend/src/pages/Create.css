@@ -1,0 +1,79 @@
+.create {
+    position: relative;
+    height: 100vh;
+    margin-bottom: 2rem ;
+}
+
+.create main {
+    background-color:  #e7e7e7;
+    margin:1em;
+    border-radius: 5px;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.create h2  {
+    margin-bottom: 1em;
+    font-weight: 200;
+    letter-spacing: 3px;
+       
+}
+
+.create h5 {
+    font-weight: 200;
+    align-self: flex-start;
+
+}
+.create form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.create textarea {
+    min-width: 100%;
+    height: 200px;
+}
+.create input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+}
+
+.create input::placeholder, textarea::placeholder {
+    color:#8d8d8d;
+}
+
+.create button {
+    border: none;
+    background-color: #bcbcbc;
+
+    padding: .3rem 1.5rem;
+
+    align-self: center;
+
+    letter-spacing: 3px;
+    font-weight: 300;  
+    z-index: +3;
+}
+.error-message {
+    color: red;
+    font-weight: 200;
+    align-self: flex-start;
+    font-size: 10pt;
+}
+
+
+@media (min-width: 500px) {
+    .create {
+        display: flex;
+        justify-content: center;
+    }
+    .create main {
+        width: 500px ;
+        height: max-content;
+    }
+    
+}

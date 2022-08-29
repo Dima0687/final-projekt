@@ -1,0 +1,57 @@
+ div.single-event {
+    height: 100vh;
+    margin: 0 5%;
+}
+ section.back {
+    margin: 1.5em 0;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ section.back span {
+    background-color: black;
+    color: white;
+    padding: 0em 0.2em;
+    font-size: 1rem;
+}
+ section.back span:first-child{
+    background: none;
+    color: black;
+    margin-right: .2em;
+}
+ .active {
+    text-decoration: none;
+}
+
+ div.description, div.input, div.output {
+    background-color: rgb(242, 243, 244);
+
+    border-radius: 5px;
+
+    padding: .6em .6em;
+    
+}
+ div.description time,
+ div.description h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: .5rem 0;
+}
+ div.description time{
+    color: teal;
+}
+
+div.input, div.output {
+    margin-top: 2em;
+    max-width: 70vW;
+}
+
+textarea {
+    max-width: 65vW;
+    margin: 1em 0;
+}
+textarea:focus {
+    outline: none;
+    border: 1px solid teal;
+}

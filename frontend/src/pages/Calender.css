@@ -1,0 +1,110 @@
+/* für alles */
+.Calendar main {
+  height: 100vh;
+}
+
+.Calendar .button {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  background-color: transparent;
+  color: white;
+  padding: 0.2em;
+  cursor: pointer;
+}
+
+.Calendar .event {
+   background-color: #e7e7e7;
+   margin-top: 1em;
+   padding: 1em;
+   color: #11748e;
+   text-decoration: none;
+}
+.Calendar .event > p {
+   color: black;
+   margin-top: 1em;
+}
+.Calendar .event:hover {
+  background-color:aliceblue
+}
+.Calendar #Cal a{
+  text-decoration: none;
+}
+.Calendar #Date_Cal {
+  color: #fff;
+  font-weight: bold;
+}
+
+.Calender #Date_Cal button {
+  color: #fff;
+}
+
+.Calender #Cal_Date_Cal {
+  display: flex;
+  flex-direction: column;
+}
+
+.Calendar #ausgabe {
+  width: 12em;
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Calendar #notEvent {
+  color: #fff;
+  margin-top: 1em;
+}
+
+.Calendar .pfeile {
+  cursor: pointer;
+}
+
+.Calendar #los {
+  padding: 0 0.3em;
+  cursor: pointer;
+}
+
+.Calendar select {
+  cursor: pointer;
+}
+
+/* Mobile */
+.Calendar #SideNav {
+  display: none;
+}
+
+/* Tablet Landscape */
+@media (min-width: 90em) {
+  .Calendar #SideNav {
+    display: block;
+  }
+
+  .Calendar .button {
+    display: none;
+  }
+
+  .Calendar #SideNav_Cal {
+    display: flex;
+    flex-direction: row;
+  }
+  .Calendar #Date_Cal {
+   flex-direction: column;
+  }
+  .Calendar #Cal {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+  }
+  .Calendar .event {
+   flex-basis: 20%;
+   margin-right: 1em;
+   width: 250px;
+   height: 175px;
+}
+}
+
+/* Desktop */
+@media (min-width: 102em) {
+}
