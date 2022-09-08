@@ -3,6 +3,9 @@
 # Final Project ( EventLookUp )
 This was a group work as a final project at Digital Career Institute
 
+## Website
+[EventLookUp](https://eventlookup-frontend.onrender.com/)
+
 ## Project Lead
 - [Dietmar Eisner](https://github.com/Dima0687)
 - [Jeremy Taag](https://github.com/Aypoleyth)
